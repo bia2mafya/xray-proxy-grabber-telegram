@@ -9,7 +9,7 @@ jobs:
   dont-let-grow-all-row-proxies:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GG_GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.xray }}
       REPO: ${{ secrets.REPO }}
       DEBUG_MODE: 0
     steps:
